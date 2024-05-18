@@ -15,7 +15,16 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <build>
-    <finalName>Infoweb</finalName>
-  </build>
+<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <version>3.3.2</version> <!-- or the latest version -->
+            <configuration>
+                <!-- Add any specific configuration here -->
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
 </project>
