@@ -26,5 +26,6 @@
             </configuration>
         </plugin>
     </plugins>
+   <finalName>Infoweb</finalName>
 </build>
 </project>
