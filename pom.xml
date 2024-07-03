@@ -4,7 +4,7 @@
   <groupId>Infoweb</groupId>
   <artifactId>Infoweb</artifactId>
   <packaging>war</packaging>
-  <version>1.6</version>
+  <version>1.4</version>
   <name>Infoweb Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
